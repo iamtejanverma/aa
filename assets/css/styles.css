@@ -65,12 +65,14 @@ p { color: var(--text-200); margin: 0 0 16px; }
 .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
 .brand { display: flex; align-items: center; gap: 10px; color: var(--text-100); text-decoration: none; font-weight: 700; }
 .brand img { width: 28px; height: 28px; border-radius: 6px; }
+/* Increase brand text size for better readability */
+.brand span { font-size: 1.25rem; }
 
 .nav__links { display: flex; gap: 20px; align-items: center; }
 .nav__link { color: var(--text-200); text-decoration: none; font-weight: 500; padding: 8px 10px; border-radius: 8px; }
 .nav__link:hover, .nav__link--active { color: var(--text-100); background: rgba(255,255,255,0.05); }
 
-.nav__toggle { display: none; background: transparent; border: 1px solid var(--border); color: var(--text-200); padding: 8px 10px; border-radius: 8px; }
+.nav__toggle { display: none; background: transparent; border: 1px solid var(--border); color: var(--text-200); padding: 8px 10px; border-radius: 8px; font-size: 1.5rem; }
 
 @media (max-width: 880px) {
   .nav__links { position: fixed; top: 64px; left: 0; right: 0; background: rgba(11,18,32,0.98); border-bottom: 1px solid var(--border); padding: 12px 20px; display: grid; gap: 8px; transform-origin: top; transform: scaleY(0); transition: transform .18s ease; }
