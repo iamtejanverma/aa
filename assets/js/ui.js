@@ -23,7 +23,7 @@
       <img src=\"/logo.png\" alt=\"Apex Aether logo\" />
       <span>Apex Aether</span>
     </a>
-    <button class=\"nav__toggle\" id=\"navToggle\" aria-expanded=\"false\" aria-controls=\"primaryNav\">Menu</button>
+    <button class=\"nav__toggle\" id=\"navToggle\" type=\"button\" aria-label=\"Menu\" aria-expanded=\"false\" aria-controls=\"primaryNav\"><span aria-hidden=\"true\">☰</span></button>
     <nav id=\"primaryNav\" class=\"nav__links\" aria-label=\"Primary\">
       ${navLink('/services/index.html', 'Services')}
       ${navLink('/about.html', 'About')}
