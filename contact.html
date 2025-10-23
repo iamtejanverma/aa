@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact & Consultation — Apex Aether</title>
+  <meta name="description" content="Contact Apex Aether for AI solutions, web development, and consulting." />
+  <link rel="canonical" href="/contact.html" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <main id="main" class="section">
+    <div class="container">
+      <h1>Contact & Consultation</h1>
+      <p class="help">We respond within one business day.</p>
+
+      <section class="section section--tight">
+        <h2>Send a message</h2>
+        <form id="contact-form" class="form" data-form-type="contact">
+          <label class="label" for="name">Your name</label>
+          <input class="input" id="name" name="name" required />
+          <label class="label" for="email">Work email</label>
+          <input class="input" id="email" name="email" type="email" required />
+          <label class="label" for="service">Service of interest</label>
+          <select class="input" id="service" name="service">
+            <option>AI Solutions</option>
+            <option>Web Development</option>
+            <option>Consulting</option>
+          </select>
+          <label class="label" for="message">How can we help?</label>
+          <textarea class="textarea" id="message" name="message"></textarea>
+          <button class="btn" type="submit">Send</button>
+          <div class="help" data-status role="status" aria-live="polite"></div>
+        </form>
+      </section>
+
+      <section class="section section--tight" id="consultation">
+        <h2>Book a consultation</h2>
+        <p class="help">Use the scheduler below. It loads only if marketing cookies are enabled.</p>
+        <div data-embed-src="https://cal.com/your-org/consultation" aria-label="Scheduler" style="min-height:360px; display:grid; place-items:center; border:1px dashed var(--border); border-radius:12px; padding:20px">
+          <div class="help">Enable marketing cookies to load the scheduler or contact us via the form above.</div>
+        </div>
+      </section>
+
+      <section class="section section--tight">
+        <h2>Other contact methods</h2>
+        <ul>
+          <li>Email: <a href="mailto:hello@apexaether.com">hello@apexaether.com</a></li>
+          <li>Phone: <a href="tel:+10000000000">+1 000 000 0000</a></li>
+          <li>Hours: Mon–Fri, 9:00–18:00</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <script src="/assets/js/ui.js" defer></script>
+  <script src="/assets/js/analytics.js" defer></script>
+  <script src="/assets/js/consent.js" defer></script>
+  <script src="/assets/js/forms.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

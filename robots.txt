@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /portfolio.html
+Sitemap: /sitemap.xml
